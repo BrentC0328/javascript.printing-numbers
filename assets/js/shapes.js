@@ -1,6 +1,15 @@
-function getLine(length) {
-    // TODO - write method definition here
+function getLine(length){
+   let output=""
+   let loopNumber = 0;
+   while (loopNumber < length) {
+    let newOutputvalue = output + "*";
+    output = newOutputvalue;
+    loopNumber = loopNumber + 1
+   }
+   return output;
+
 }
+    
 
 
 
